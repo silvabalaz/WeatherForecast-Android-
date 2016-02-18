@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tests</string>
+    <string name="TextView01">Latitude</string>
+    <string name="TextView02">Unknown</string>
+    <string name="TextView03">Longitude</string>
+    <string name="TextView04">Unknown</string>
+</resources>

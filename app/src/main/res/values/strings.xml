@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">WeatherApp</string>
     <string name="action_settings">Settings</string>
+    <string name="TextView02" />
+    <string name="TextView03" />
+    <string name="TextView04" />
+    <string name="TextView01" />
 </resources>

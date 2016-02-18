@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dip"
             android:layout_marginRight="5dip"
-            android:text="Latitude: "
+            android:text="@string/TextView01"
             android:textSize="20dip" >
         </TextView>
 
@@ -25,7 +25,7 @@
             android:id="@+id/TextView02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="unknown"
+            android:text="@string/TextView02"
             android:textSize="20dip" >
         </TextView>
     </LinearLayout>
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dip"
             android:layout_marginRight="5dip"
-            android:text="Longitute: "
+            android:text="@string/TextView03"
             android:textSize="20dip" >
         </TextView>
 
@@ -49,7 +49,7 @@
             android:id="@+id/TextView04"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="unknown"
+            android:text="@string/TextView04"
             android:textSize="20dip" >
         </TextView>
     </LinearLayout>

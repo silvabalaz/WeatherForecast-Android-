@@ -1,4 +1,4 @@
-package com.example.racunalo.weatherapp;
+package com.example.racunalo.tests;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

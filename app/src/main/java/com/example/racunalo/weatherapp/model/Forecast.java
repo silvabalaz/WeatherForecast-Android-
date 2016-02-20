@@ -1,22 +1,18 @@
 package com.example.racunalo.weatherapp.model;
 
 
+
 public class Forecast {
 
 
-    public android.location.Location location;
+    public Location location;
 
     public CurrentCondition currentCondition = new CurrentCondition();
-
-
 
     public byte[] iconData;
 
 
     public  class CurrentCondition {
-
-
-        public Location location;
 
 
         private int weatherId;

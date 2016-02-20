@@ -3,7 +3,7 @@ package com.example.racunalo.weatherapp.model;
 
 import java.io.Serializable;
 
-public class Location implements Serializable{
+public class Location {
 
 
     private float longitude;
@@ -32,17 +32,13 @@ public class Location implements Serializable{
     public void setCountry(String country) {
         this.country = country;
     }
+
     public String getCity() {
         return city;
     }
     public void setCity(String city) {
         this.city = city;
     }
-
-
-
-
-
 
 
 

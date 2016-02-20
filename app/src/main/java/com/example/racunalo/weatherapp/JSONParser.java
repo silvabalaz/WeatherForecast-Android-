@@ -1,8 +1,11 @@
 package com.example.racunalo.weatherapp;
 
-import android.location.Location;
 
 import com.example.racunalo.weatherapp.model.Forecast;
+import com.example.racunalo.weatherapp.model.Location;
+//import android.Location;
+
+
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -26,8 +29,8 @@ public class JSONParser {
         loc.setLongitude(getFloat("lon", coordObj));
 
         JSONObject sysObj = getObject("sys", jObj);
-        //loc.setCountry(getString("country", sysObj));
-        //loc.setCity(getString("name", jObj));
+        loc.setCountry(getString("country", sysObj));
+        loc.setCity(getString("name", jObj));
 
         forecast.location = loc;
 

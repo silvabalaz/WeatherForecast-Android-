@@ -1,4 +1,4 @@
-package com.example.racunalo.weatherapp;
+/*package com.example.racunalo.weatherapp;
 
 import android.Manifest;
 import android.app.Activity;
@@ -22,7 +22,7 @@ public class ShowLocationActivity extends Activity implements LocationListener {
     private String provider;
     private Location mLastLocation;
 
-    /** Called when the activity is first created. */
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -62,7 +62,7 @@ public class ShowLocationActivity extends Activity implements LocationListener {
 
 
 
-    /* Request updates at startup */
+
     @Override
     protected void onResume() {
         super.onResume();
@@ -73,7 +73,7 @@ public class ShowLocationActivity extends Activity implements LocationListener {
         locationManager.requestLocationUpdates(provider, 400, 1, this);
     }
 
-    /* Remove the locationlistener updates when Activity is paused */
+
     @Override
     protected void onPause() {
         super.onPause();
@@ -110,3 +110,4 @@ public class ShowLocationActivity extends Activity implements LocationListener {
         Toast.makeText(this, "Disabled provider " + provider, Toast.LENGTH_SHORT).show();
     }
 }
+*/
